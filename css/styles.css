@@ -159,23 +159,18 @@ Header
 .banner h2 {
   font-family: var(--ff-secondary);
   color: var(--clr-primary);
-  /* animation */
-  animation: slideFromRight 5s ease-in-out 1;
 }
 .banner h1 {
   text-transform: uppercase;
   color: var(--clr-white);
   margin-top: 1.25rem;
   margin-bottom: 2rem;
-  /* animation */
-  animation: slideFromLeft 5s ease-in-out 1;
 }
 .banner-btn {
   outline: 0.125rem solid var(--clr-primary);
   outline-offset: 0.25rem;
   font-size: 1.25rem;
   padding: 1rem 1.75rem;
-  animation: show 5s linear 1;
 }
 /* content divider */
 .content-divider {
@@ -200,7 +195,7 @@ About
   background: var(--clr-primary);
   border: 0.5rem solid var(--clr-primary);
   max-width: 30rem;
-  /* extra stuff */
+  /* extra */
   overflow: hidden;
 }
 .about-picture {
@@ -253,7 +248,7 @@ teams
   color: var(--clr-primary);
 }
 .team .btn{
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   outline: none;
   border-radius: var(--radius);
 }
