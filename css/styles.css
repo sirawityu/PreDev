@@ -90,7 +90,12 @@ p {
     line-height: 1;
   }
 }
+<<<<<<< HEAD
 /* more global css */
+=======
+
+/* global เพิ่ม */
+>>>>>>> bbc843b9be55ea14da6954c1193cb74fe7e8f70f
 
 .btn {
   text-transform: uppercase;
@@ -195,14 +200,21 @@ About
   background: var(--clr-primary);
   border: 0.5rem solid var(--clr-primary);
   max-width: 30rem;
+<<<<<<< HEAD
   /* extra */
+=======
+>>>>>>> bbc843b9be55ea14da6954c1193cb74fe7e8f70f
   overflow: hidden;
 }
 .about-picture {
   transition: var(--transition);
 }
 .about-picture-container:hover .about-picture {
+<<<<<<< HEAD
   /* opacity: 0.5; */
+=======
+  opacity: 0.5;
+>>>>>>> bbc843b9be55ea14da6954c1193cb74fe7e8f70f
   transform: scale(1.2);
 }
 .about-text {
@@ -221,7 +233,11 @@ About
 }
 /*
 =============== 
+<<<<<<< HEAD
 teams
+=======
+Team
+>>>>>>> bbc843b9be55ea14da6954c1193cb74fe7e8f70f
 ===============
 */
 .teams {
@@ -247,12 +263,15 @@ teams
 .team-nickname {
   color: var(--clr-primary);
 }
+<<<<<<< HEAD
 .team .btn{
   font-size: 0.75rem;
   outline: none;
   border-radius: var(--radius);
 }
 
+=======
+>>>>>>> bbc843b9be55ea14da6954c1193cb74fe7e8f70f
 @media screen and (min-width: 768px) {
   .team {
     float: left;
@@ -262,7 +281,11 @@ teams
 }
 @media screen and (min-width: 992px) {
   .team {
+<<<<<<< HEAD
     width: 33%;
+=======
+    width: 33.3%;
+>>>>>>> bbc843b9be55ea14da6954c1193cb74fe7e8f70f
   }
 }
 @media screen and (min-width: 1200px) {
@@ -279,4 +302,7 @@ teams
     padding: 0 1rem;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bbc843b9be55ea14da6954c1193cb74fe7e8f70f
